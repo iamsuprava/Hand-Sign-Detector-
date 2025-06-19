@@ -1,4 +1,6 @@
 import cv2
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 from cvzone.HandTrackingModule import HandDetector
 from cvzone.ClassificationModule import Classifier
 import numpy as np
